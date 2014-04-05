@@ -1,7 +1,6 @@
 GDGBaltimore
 ============
-All GDG Baltimore group projects are available in this repository, all are open source, contributed and maintained 
-by Google Developer's Group Baltimore member, and we welcome anyone who is intrested contribute.
+All GDG Baltimore group projects are available in this repository, all are open source projects, contributed and maintained by Baltimore Google Developer's Group members, and we welcome anyone who is intrested to contribute.
 
 Foodcheck:
 A Google Glass project, goal is to allow shoppers to find out the right product based on their Nutrition 
