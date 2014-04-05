@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">FoodCheck</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="livecarddemo_screen_content">FoodCheck Now Live</string>
+    <string name="livecarddemo_livecard_content">FoodCheck Currently Active</string>
+    <string name="Movie2_Content">Food Activity is displaying now</string>
+
+    <!--  LiveCardDemoLocalService  -->
+    <string name="livecarddemo_localservice_started">FoodCheck has started</string>
+
+    <!--  For voice input  -->
+    <string name="livecarddemo_voice_trigger">Should I get this</string>
+    <string name="livecarddemo_voice_prompt">Check your product fact</string>
+
+    <!--  For Status Text  -->
+    <string name="img_description">dummy text</string>
+</resources>
