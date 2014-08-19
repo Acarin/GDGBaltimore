@@ -1,0 +1,29 @@
+// get upc of 5100002952
+NutritionInfo nutritionInfo = new NutritionInfo();
+nutritionInfo.getJSON("5100002952");
+System.out.println("The description name is "+nutritionInfo.getFoodInfo().getDescription());
+
+
+
+
+
+
+
+// bar code read
+BarCodeRead barCodeRead = new BarCodeRead();
+
+String output = null;
+
+String input = "/home/mpop/workspace/barCodeLookup/BarCodeReader/forScrapBooks/barcode.jpg";
+
+output = barCodeRead.getCode(input);
+
+System.out.println(output);
+
+// put the 2 togetherNutritionInfo nutritionInfo = new NutritionInfo();
+BarCodeRead barCodeRead = new BarCodeRead();
+String input = "/home/mpop/workspace/barCodeLookup/BarCodeReader/forScrapBooks/barcode.jpg";
+
+// the leading 0 needs removed
+nutritionInfo.getJSON(barCodeRead.getCode(input).substring(1));
+System.out.println("The description name is "+nutritionInfo.getFoodInfo().getDescription());
